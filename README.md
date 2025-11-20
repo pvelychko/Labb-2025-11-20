@@ -37,12 +37,18 @@ Kommer...
 
 ## Claude Code
 
+### Autentisering via Console Account
+![Sign in](assets/cc-sign-in.png?raw=true)
+
+Om du inte redan har ett konto och prenumeration för Claude Code så kan du logga in via (Tobias) "Console account" - **säg till så får du en inbjudan**.
+
+### Misc
 - För en lista med redan på förhand godkända operationer (kolla gärna igenom först) - kopiera `.claude/settings.local-example.json` och byt namn till `.claude/settings.local.json`. Kom ihång att .claude mappen måste ligga i den katalog du kör igång claude från.
 - Övriga potentiellt intressanta filer:
-    - Guidelines under `ai_docs/guidelines`
-    - En "mall" för CLAUDE.md: [ai_docs/templates/CLAUDE_md_temlplate.md](ai_docs/templates/CLAUDE_md_temlplate.md)
-    - En uppsättning sub-agenter: `.claude/agents`
-    - En uppsättning custom slash commands: `.claude/commands`
+    - Guidelines under `docs/guidelines`
+    - En "mall" för CLAUDE.md: [CLAUDE.template.md](CLAUDE.template.md)
+    - Exempel på custom slash commands: `.claude/commands`
+
 
 ### YOLO
 Dev containern sätter upp ett alias (_`yoloc`_) för att köra i så kallt "YOLO mode" (även kännt som "ingen-minns-en-fegis-läge"). Du kan också köra igång detta läge genom att starta claude med: _`claude --dangerously-skip-permissions`_.
