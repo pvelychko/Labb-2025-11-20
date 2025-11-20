@@ -20,7 +20,12 @@ Följ instruktionerna i [gildedrose/claude_code_gildedrose.md](gildedrose/claude
 I katalogen banana finns en kom-igång-prompt för att skapa en enkel bilgenererings-app med som använder Googles Nano Banana.
 
 ### Bonusövning2: Bygg en enkel TODO-app med Claude Code
-Kommer...
+I katalogen todo-app finns en relativt färdig plan ([todo-app/PROJECT_PLAN_SIMPLE.md](todo-app/PROJECT_PLAN_SIMPLE.md)) för att bygga en enkel TODO-app med Claude Code. 
+
+- Steg 1: Kika igenom projektplanen
+- Steg 2: Använd _`review-spec`_ kommandot (se .claude/commands/review-spec.md) för att granska projektplanen och säkerställa att den är komplett och tydlig.
+- Steg 3: Använd Claude Code för att implementera TODO-appen enligt planen. 
+    - Bonus-steg: Be claude att uppdatera planen för att använda en annan teknologistack
 
 
 ## Hemligheter / Secrets
